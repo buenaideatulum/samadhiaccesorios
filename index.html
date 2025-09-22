@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samadhi Accesorios | Boutique en Tulum</title>
     <meta name="description" content="Descubre accesorios únicos y vestidos bohemios en el corazón de Tulum. Samadhi Accesorios - Tu estilo, tu esencia.">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
         * {
@@ -15,7 +16,7 @@
         
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #d2b48c 0%, #ddbf94 25%, #e6ccaa 50%, #f4e4bc 75%, #f5deb3 100%);
             min-height: 100vh;
             position: relative;
             overflow-x: hidden;
@@ -71,22 +72,22 @@
         }
         
         .profile-name {
-            color: white;
+            color: #8b4513;
             font-size: 28px;
             font-weight: 700;
             margin-bottom: 8px;
-            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
         }
         
         .profile-subtitle {
-            color: rgba(255, 255, 255, 0.9);
+            color: #a0522d;
             font-size: 16px;
             font-weight: 300;
             margin-bottom: 5px;
         }
         
         .profile-location {
-            color: rgba(255, 255, 255, 0.8);
+            color: #8b4513;
             font-size: 14px;
             display: flex;
             align-items: center;
@@ -219,7 +220,7 @@
         .footer {
             text-align: center;
             margin-top: 40px;
-            color: rgba(255, 255, 255, 0.7);
+            color: #8b4513;
             font-size: 12px;
             animation: fadeIn 2s ease-out;
         }
@@ -315,7 +316,7 @@
         <!-- Links Container -->
         <div class="links-container">
             
-            <a href="https://www.google.com/" class="link-item catalog">
+            <a href="TU_ENLACE_CATALOGO_AQUI" class="link-item catalog">
                 <div class="link-icon">
                     <i class="fas fa-shopping-bag"></i>
                 </div>
@@ -328,7 +329,7 @@
                 </div>
             </a>
 
-            <a href="https://www.google.com/" class="link-item tiktok">
+            <a href="https://www.tiktok.com/@TU_USUARIO_TIKTOK" class="link-item tiktok">
                 <div class="link-icon">
                     <i class="fab fa-tiktok"></i>
                 </div>
@@ -341,7 +342,7 @@
                 </div>
             </a>
 
-            <a href="https://www.google.com/" class="link-item instagram">
+            <a href="https://www.instagram.com/samadhiaccesorios" class="link-item instagram">
                 <div class="link-icon">
                     <i class="fab fa-instagram"></i>
                 </div>
@@ -354,7 +355,7 @@
                 </div>
             </a>
 
-            <a href="https://www.google.com/" class="link-item whatsapp">
+            <a href="https://wa.me/52TU_NUMERO_WHATSAPP" class="link-item whatsapp">
                 <div class="link-icon">
                     <i class="fab fa-whatsapp"></i>
                 </div>
@@ -367,7 +368,7 @@
                 </div>
             </a>
 
-            <a href="https://www.google.com/" class="link-item location">
+            <a href="https://maps.google.com/?q=TU_DIRECCION_TULUM" class="link-item location">
                 <div class="link-icon">
                     <i class="fas fa-map-marker-alt"></i>
                 </div>
@@ -380,7 +381,7 @@
                 </div>
             </a>
 
-            <a href="https://www.google.com/" class="link-item contact">
+            <a href="mailto:TU_EMAIL@gmail.com" class="link-item contact">
                 <div class="link-icon">
                     <i class="fas fa-envelope"></i>
                 </div>
@@ -397,16 +398,16 @@
 
         <!-- Social Links -->
         <div class="social-links">
-            <a href="https://www.google.com/" class="social-link">
+            <a href="https://www.instagram.com/samadhiaccesorios" class="social-link">
                 <i class="fab fa-instagram"></i>
             </a>
-            <a href="https://www.google.com/" class="social-link">
+            <a href="https://www.facebook.com/TU_PAGINA_FACEBOOK" class="social-link">
                 <i class="fab fa-facebook"></i>
             </a>
-            <a href="https://www.google.com/" class="social-link">
+            <a href="https://wa.me/52TU_NUMERO_WHATSAPP" class="social-link">
                 <i class="fab fa-whatsapp"></i>
             </a>
-            <a href="https://www.google.com/" class="social-link">
+            <a href="https://www.tiktok.com/@TU_USUARIO_TIKTOK" class="social-link">
                 <i class="fab fa-tiktok"></i>
             </a>
         </div>
@@ -421,23 +422,6 @@
     <script>
         // Add smooth hover effects and interactions
         document.addEventListener('DOMContentLoaded', function() {
-            const links = document.querySelectorAll('.link-item');
-            
-            links.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    
-                    // Add a click animation
-                    this.style.transform = 'scale(0.95)';
-                    setTimeout(() => {
-                        this.style.transform = '';
-                    }, 150);
-                    
-                    // Here you would add the actual URL redirects
-                    console.log('Link clicked:', this.querySelector('.link-title').textContent);
-                });
-            });
-            
             // Add parallax effect to floating elements
             const floatingElements = document.querySelectorAll('.floating');
             
